@@ -98,7 +98,7 @@ app.get("/view", async (request, response) => {
             }
 
         }],function (error, data) {
-         return response.send(data);
+         return response.json(data);
      //handle error case also
     });
     //console.log(resources);
